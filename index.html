@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="custom.css" />
+    <title>Texas Best Repairman</title>
+  </head>
+  <body>
+    <!-- HOME SECTION -->
+    <header id="home-section">
+      <div class="dark-overlay">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-none fixed-top">
+          <a class="navbar-brand" href="index.html">Texas Best Repairman</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-phone-alt mr-2"></i>555-555-5555</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:handyman@handyman.com"
+                  ><i class="far fa-envelope ml-5 mr-2"></i
+                  >handyman@handyman.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- BACK-TO-TOP BUTTON -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+          <i class="fas fa-angle-up"></i>
+        </button>
+
+        <!-- HOME SECTION -->
+        <div class="home-inner">
+          <div class="container py-5">
+            <div class="row py-5">
+              <div class="col-sm text-center">
+                <h2 class="text-uppercase mt-5 pt-5 mr-5">
+                  Your trusted source for safe and honest handy work!
+                </h2>
+                <p class="mt-4">
+                  Tasks range from minor to major, and include painting, drywall
+                  repair, remodeling, minor plumbing work, minor electrical
+                  work, household carpentry, sheetrock, crown moulding, and
+                  furniture assembly
+                </p>
+              </div>
+              <div class="col-sm">
+                <form class="p-3 mt-5 rounded">
+                  <h3 class="text-center">Get a Quote</h3>
+                  <div class="row">
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control mt-4"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group my-3">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1"
+                      >Example textarea</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg btn-block mt-4 mb-5"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <div id="about-section">
+      <div class="container text-center my-5 py-5">
+        <h1 class="mb-5 pb-3 text-uppercase">A little about us...</h1>
+        <div class="row">
+          <div class="col-sm mr-5">
+            <img
+              class="rounded float-left"
+              src="img/photo-1543525324-9146d43c2a4e.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-sm ml-5 mt-5">
+            <p>
+              Examples of less frequent home maintenance that should be
+              regularly forecast and budgeted include repainting or staining
+              outdoor wood or metal, repainting masonry, waterproofing masonry,
+              cleaning out septic systems, replacing sacrificial electrodes in
+              water heaters, replacing old washing machine hoses (preferably
+              with stainless steel hoses less likely to burst and cause a
+              flood), and other home improvements such as replacement of
+              obsolete or ageing systems with limited useful lifetimes (water
+              heaters, wood stoves, pumps, and asphaltic or wooden roof shingles
+              and siding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICE SECTION -->
+    <div id="services-section">
+      <div class="container text-center py-5 text-light">
+        <h1 class="my-5 text-uppercase">Some of the services we offer</h1>
+        <div class="row my-5">
+          <div class="col-sm">
+            <div class="service-card shadow">
+              <h2 class="pt-5">Appliance Repair</h2>
+              <img
+                class="mt-3"
+                src="img/stove-white.svg"
+                alt=""
+                height="100"
+                width="100"
+              />
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="service-card shadow">
+              <h2 class="pt-5">Landscaping</h2>
+              <img
+                class="mt-3"
+                src="img/lawnmower-white.svg"
+                alt=""
+                height="100"
+                width="100"
+              />
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="service-card shadow">
+              <h2 class="pt-5">Carpentry</h2>
+              <img
+                class="mt-3"
+                src="img/masonry-white.svg"
+                alt=""
+                height="90"
+                width="90"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-sm">
+            <div class="service-card shadow">
+              <h2 class="pt-5">Fencing Repair</h2>
+              <img
+                class="mt-3"
+                src="img/fence-white.svg"
+                alt=""
+                height="100"
+                width="100"
+              />
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="service-card shadow">
+              <h2 class="pt-5">Painting</h2>
+              <img
+                class="mt-3"
+                src="img/painting-white.svg"
+                alt=""
+                height="100"
+                width="100"
+              />
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="service-card shadow">
+              <h2 class="pt-5">Haul Away</h2>
+              <img
+                src="img/trailer-white.svg"
+                alt=""
+                height="125"
+                width="125"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REVIEWS SECTION -->
+    <div id="reviews-section">
+      <div class="container text-center py-5">
+        <h1 class="my-5 text-uppercase">Testimonials</h1>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-block-w-100">
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    "Many towns have handymen who work part-time, for friends or
+                    family or neighbors, who are skilled in a variety of tasks.
+                    Sometimes they advertise in newspapers or online. They are
+                    great in quality, professionalism, skill level, and price.
+                    Contractors work of previous contractors, and this practice
+                    is not limited to handymen, but to all trades."
+                  </p>
+                  <footer class="blockquote-footer">
+                    "Margaret K Fowler"
+                    <cite title="Source Title">Source Title</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block-w-100">
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    "A handyman, also known as a fixer, is a person skilled at a
+                    wide range of repairs, typically around the home. These
+                    tasks include trade skills, repair work, maintenance work,
+                    are both interior and exterior, and are sometimes described
+                    as "side work", "odd jobs" or "fix-up tasks". Specifically,
+                    these jobs could be light plumbing jobs such as fixing a
+                    leaky toilet or light electric jobs such as changing a light
+                    fixture."
+                  </p>
+                  <footer class="blockquote-footer">
+                    James J Jensen
+                    <cite title="Source Title">Source Title</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block-w-100">
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    "People can do common household repairs. There are resources
+                    on the Internet, as well as do-it-yourself guide books,
+                    Tasks range from minor to major, from unskilled to highly
+                    skilled, and include painting, drywall repair, remodeling,
+                    minor plumbing work, minor electrical work, household
+                    carpentry, sheetrock, crown moulding, and furniture
+                    assembly."
+                  </p>
+                  <footer class="blockquote-footer">
+                    Joseph L Hicks
+                    <cite title="Source Title">Source Title</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHOTO SECTION -->
+    <div id="photo-section">
+      <div class="row">
+        <div class="col parent">
+          <div class="child photo1"></div>
+        </div>
+        <div class="col parent">
+          <div class="child photo2"></div>
+        </div>
+        <div class="col parent">
+          <div class="child photo3"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col parent">
+          <div class="child photo4"></div>
+        </div>
+        <div class="col parent">
+          <div class="child photo5"></div>
+        </div>
+        <div class="col parent">
+          <div class="child photo6"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="contact-section">
+      <div class="container text-light pt-4">
+        <div class="row">
+          <div class="col-sm">
+            <h3>Texas Best Repairman</h3>
+            <p>
+              Tasks range from minor to major, and include painting, drywall
+              repair, remodeling, minor plumbing work, minor electrical work,
+              household carpentry, sheetrock, crown moulding, and furniture
+              assembly
+            </p>
+          </div>
+          <div class="col-sm">
+            <ul>
+              <h3>Contact</h3>
+              <li class="mb-2">555-555-5555</li>
+              <li class="mb-2">handyman@handyman.com</li>
+              <li>3964 Edington Drive</li>
+              <li>San Antonio, TX 78205</li>
+            </ul>
+          </div>
+          <div class="col-sm ml-5">
+            <ul class="hours">
+              <h3>Hours</h3>
+              <li>Mon-Fri: 8am - 6pm</li>
+              <li>Weekends: by appointment</li>
+            </ul>
+            <h3>Follow</h3>
+            <div class="row social">
+              <div class="col">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="col">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="col">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <ul>
+              <h3>Site Links</h3>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="/pages/contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="text-center text-light">
+      <small
+        >Copyright &#169; Handyman, All rights reserved. Created by
+        <a href="https://www.mmrodriguez.com/" target="blank">MMR</a></small
+      >
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+<!-- https://uicookies.com/css-image-galleries/ -->

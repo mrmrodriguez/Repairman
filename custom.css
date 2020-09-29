@@ -1,0 +1,369 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.dark-overlay {
+  background-color: rgba(22, 21, 68, 0.7);
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 48px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  /* background-color: #69698075; */
+  /* background-color: red; */
+  color: #fff;
+  cursor: pointer;
+  /* padding: 15px; */
+  border-radius: 50%;
+  /* mix-blend-mode: difference; */
+}
+
+#myBtn i {
+  width: 60px;
+  height: 50px;
+  /* color: #fff; */
+  background-color: red;
+  mix-blend-mode: difference;
+  /* mix-blend-mode: darken; */
+  /* color: #696980; */
+}
+
+#home-section {
+  background: url('https://images.unsplash.com/photo-1585569695919-db237e7cc455?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')
+    center / 150% 150% no-repeat fixed;
+  height: 100vh;
+}
+
+#home-section nav,
+#contact-navbar nav,
+#services-navbar,
+#about-navbar nav {
+  background-color: rgba(90, 90, 100, 0.7);
+}
+
+#home-section form,
+#contact-home form {
+  /* background-color: rgba(101, 99, 207, 0.7); */
+  background-color: rgba(131, 131, 150, 0.7);
+}
+
+#home-section form h3 {
+  font-size: 48px;
+}
+
+#about-section img {
+  width: 500px;
+}
+
+#about-section p,
+#about-home p {
+  font-size: 20px;
+  text-indent: 50px;
+  text-align: justify;
+}
+
+#services-section .container {
+  width: 140vh;
+}
+
+/* .service-card {
+  transition: all 0.2s ease-in-out;
+} */
+
+.service-card {
+  width: 300px;
+  height: 300px;
+  transition: all 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.1);
+}
+
+.service-card h2 {
+  font-size: 20px;
+}
+
+#services-section,
+#contact-section,
+#footer {
+  background-color: #696980;
+}
+
+#reviews-section {
+  height: 60vh;
+}
+
+#photo-section .row {
+  margin-right: 0;
+}
+
+#home-section h2 {
+  font-size: 48px;
+}
+
+#home-section p {
+  font-size: 24px;
+}
+
+#photo-section .parent {
+  width: auto;
+  padding: 0;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+#photo-section .child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#photo-section .photo1 {
+  background-image: url('https://images.unsplash.com/photo-1505798577917-a65157d3320a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  transition-duration: 0.5s;
+}
+
+#photo-section .photo2 {
+  background-image: url('https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 0.3s;
+}
+
+#photo-section .photo3 {
+  background-image: url('https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 0.3s;
+}
+
+#photo-section .photo4 {
+  background-image: url('https://images.unsplash.com/photo-1573869908170-64b53a60d8da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 0.3s;
+}
+
+#photo-section .photo5 {
+  background-image: url('https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 0.3s;
+}
+
+#photo-section .photo6 {
+  background-image: url('https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 0.3s;
+}
+
+#contact-section h3 {
+  font-size: 20px;
+}
+
+#contact-section ul {
+  list-style: none;
+}
+
+#contact-section ul.hours {
+  padding-left: 0;
+}
+
+#contact-section .social {
+  width: 200px;
+  font-size: 18px;
+}
+
+#contact-section .social a {
+  color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .photo-container {
+    width: calc(50% - 6px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .photo-container {
+    width: 100%;
+  }
+}
+
+/* ________CONTACT PAGE_________ */
+#contact-home {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')
+    no-repeat bottom center fixed;
+  background-position: cover;
+}
+
+#contact-home h1:first-of-type {
+  padding-top: 100px;
+}
+
+#contact-home .form-container {
+  max-width: 950px;
+}
+
+#contact-home h2 {
+  font-size: 20px;
+}
+
+/* #contact-home .form-side h2 {
+  font-size: 30px;
+} */
+
+#contact-home .form-col {
+  padding: 0;
+}
+
+#contact-home .form-side {
+  /* background-color: rgba(22, 21, 68, 0.7); */
+  background-color: rgba(92, 92, 112, 0.7);
+}
+
+#contact-home form button .btn .btn-primary .btn-lg {
+  margin: 0 auto;
+}
+
+#contact-home .form-side ul {
+  padding: 0;
+}
+
+#contact-home .form-side .social {
+  max-width: 275px;
+  margin: 0 auto;
+}
+
+/* ________SERVICES PAGE_________ */
+#services {
+  background-color: #8f8fa3;
+  height: 100%;
+}
+
+#services-table {
+  padding: 100px 0;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+/* .service-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.1);
+} */
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 30px 20px;
+  height: 100%;
+}
+
+i.fas.fa-sink.pb-3,
+i.fas.fa-toilet.pb-3,
+i.fas.fa-couch.pb-3,
+i.fas.fa-bed.pb-3,
+i.fas.fa-home.pb-3,
+i.fas.fa-door-open.pb-3 {
+  font-size: 64px;
+}
+
+i .fas.fa-angle-right.pt-4,
+a {
+  font-size: 18px;
+}
+
+#room {
+  background-color: #696980;
+}
+#service {
+  background-color: #5b5b7c;
+}
+
+/* ________ABOUT PAGE_________ */
+#about-home h1 {
+  padding-top: 100px;
+}
+
+#about-home img {
+  width: 100%;
+}

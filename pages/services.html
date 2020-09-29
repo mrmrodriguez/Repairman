@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../custom.css" />
+    <title>Texas Best Repairman</title>
+  </head>
+  <body>
+    <div id="services">
+      <nav
+        id="services-navbar"
+        class="navbar navbar-expand-lg navbar-dark bg-none fixed-top"
+      >
+        <a class="navbar-brand" href="../index.html">Texas Best Repairman</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-phone-alt mr-2"></i>555-555-5555</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:handyman@handyman.com"
+                ><i class="far fa-envelope ml-5 mr-2"></i
+                >handyman@handyman.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- BACK-TO-TOP BUTTON -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+
+      <!-- SERVICES TABLE -->
+      <div id="services-table" class="text-center">
+        <h1 class="text-light mb-4 text-uppercase">Services We Offer</h1>
+        <button
+          class="tablink rounded-top"
+          onclick="openPage('room', this, '#696980')"
+          id="defaultOpen"
+        >
+          By Room
+        </button>
+        <button
+          class="tablink rounded-top"
+          onclick="openPage('service', this, '#5B5B7C')"
+        >
+          By Service
+        </button>
+
+        <div id="room" class="tabcontent text-center rounded">
+          <div class="row my-5 justify-content-center">
+            <a href="../pages/services/kitchen.html">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Kitchen</h2>
+                  <i class="fas fa-sink pb-3"></i><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="../pages/services/bathroom.html">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Bathroom</h2>
+                  <i class="fas fa-toilet pb-3"></i><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="../pages/services/living-room.html">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Living Room</h2>
+                  <i class="fas fa-couch pb-3"></i><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="row my-5 justify-content-center">
+            <a href="../pages/services/bedroom.html">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Bedroom</h2>
+                  <i class="fas fa-bed pb-3"></i><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="../pages/services/outdoor.html">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Outdoor</h2>
+                  <i class="fas fa-home pb-3"></i><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="../pages/services/attic.html">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Attic</h2>
+                  <i class="fas fa-door-open pb-3"></i><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- </div> -->
+
+        <div id="service" class="tabcontent text-center rounded">
+          <div class="row my-5 justify-content-center">
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Repair</h2>
+                  <img
+                    src="../img/stove-white.svg"
+                    alt=""
+                    height="100"
+                    width="100"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Landscaping</h2>
+                  <img
+                    src="../img/lawnmower-white.svg"
+                    alt=""
+                    height="100"
+                    width="100"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Carpentry</h2>
+                  <img
+                    src="../img/masonry-white.svg"
+                    alt=""
+                    height="100"
+                    width="100"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="row my-5 justify-content-center">
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Fencing Repair</h2>
+                  <img
+                    src="../img/fence-white.svg"
+                    alt=""
+                    height="100"
+                    width="100"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5 pb-3">Painting</h2>
+                  <img
+                    src="../img/painting-white.svg"
+                    alt=""
+                    height="100"
+                    width="100"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5">Haul Away</h2>
+                  <img
+                    src="../img/trailer-white.svg"
+                    alt=""
+                    height="125"
+                    width="125"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="row my-5 justify-content-center">
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5">Assembly</h2>
+                  <img
+                    src="../img/couch-white.svg"
+                    alt=""
+                    height="125"
+                    width="125"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5">Maintenance</h2>
+                  <img
+                    src="../img/tools-white.svg"
+                    alt=""
+                    height="125"
+                    width="125"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-sm">
+                <div class="service-card shadow">
+                  <h2 class="pt-5">Plumbing</h2>
+                  <img
+                    src="../img/water-tap-white.svg"
+                    alt=""
+                    height="125"
+                    width="125"
+                  /><br />
+                  <p class="pb-5">
+                    Learn More <i class="fas fa-angle-right pt-4"></i>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="contact-section">
+      <div class="container text-light pt-4">
+        <div class="row">
+          <div class="col-sm">
+            <h3>Texas Best Repairman</h3>
+            <p>
+              Tasks range from minor to major, and include painting, drywall
+              repair, remodeling, minor plumbing work, minor electrical work,
+              household carpentry, sheetrock, crown moulding, and furniture
+              assembly
+            </p>
+          </div>
+          <div class="col-sm">
+            <ul>
+              <h3>Contact</h3>
+              <li class="mb-2">555-555-5555</li>
+              <li class="mb-2">handyman@handyman.com</li>
+              <li>3964 Edington Drive</li>
+              <li>San Antonio, TX 78205</li>
+            </ul>
+          </div>
+          <div class="col-sm ml-5">
+            <ul class="hours">
+              <h3>Hours</h3>
+              <li>Mon-Fri: 8am - 6pm</li>
+              <li>Weekends: by appointment</li>
+            </ul>
+            <h3>Follow</h3>
+            <div class="row social">
+              <div class="col">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="col">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="col">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <ul>
+              <h3>Site Links</h3>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="../pages/contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="text-center text-light">
+      <small
+        >Copyright &#169; Handyman, All rights reserved. Created by
+        <a href="https://www.mmrodriguez.com/" target="blank">MMR</a></small
+      >
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../index.js"></script>
+  </body>
+</html>
+
+<!-- https://uicookies.com/css-image-galleries/ -->
